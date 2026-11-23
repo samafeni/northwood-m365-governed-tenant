@@ -93,7 +93,7 @@ Source: [northwood-identity-flow.drawio](diagrams/northwood-identity-flow.drawio
 | 4 | The shared channel works in both directions | Pending | [screenshot](screenshots/05-validation/) |
 | 5 | SPF, DKIM and DMARC pass on mail-tester.com | Pending | [screenshot](screenshots/05-validation/) |
 | 6 | PIM activation for Global Admin requires MFA and justification | Pending | [screenshot](screenshots/05-validation/) |
-| 7 | Diagrams render as .drawio and animated .gif | Pending | [/diagrams](diagrams/) |
+| 7 | Diagrams render as .drawio and animated .gif | Pass | [/diagrams](diagrams/) |
 
 Full test steps: [docs/06-validation.md](docs/06-validation.md)
 
