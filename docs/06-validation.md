@@ -13,7 +13,7 @@ Each test runs as a named test user, not as an admin. Record the date, the resul
 | 5 | Email authentication | Send to the mail-tester.com address | SPF, DKIM and DMARC all pass | | `05-validation/05-mail-tester-score.png` |
 | 6 | PIM activation controls | As an eligible admin, activate Global Admin | MFA prompt, justification required, 4-hour maximum | | `05-validation/06-pim-activation.png` |
 | 7 | Legacy auth blocked | Check sign-in logs for a legacy client attempt, or use the What If tool | Blocked by CA02 | | `05-validation/07-ca-legacy-blocked.png` |
-| 8 | Diagrams render | Open both .drawio files and both PNGs on GitHub | All four render | | |
+| 8 | Diagrams render | Open both .drawio files in draw.io and both GIFs on GitHub | All four render. GIFs animate in the README | Pass | `diagrams/` |
 
 ## Issues Found During Testing
 

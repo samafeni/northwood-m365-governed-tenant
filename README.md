@@ -57,7 +57,7 @@ The firm has four departments: Design, Project Management, Finance and Business 
 
 ### Tenant Architecture
 
-![Northwood tenant architecture](diagrams/northwood-architecture.png)
+![Northwood tenant architecture](diagrams/northwood-architecture.gif)
 
 Microsoft Entra ID sits at the top as the control point. Every sign-in from staff and external guests passes through the Conditional Access baseline before a token reaches any workload. Operations admins hold eligible roles only and activate them through PIM. Security groups and group policies in Entra drive membership, Team creation rights and naming across the workloads below.
 
@@ -67,7 +67,7 @@ Source: [northwood-architecture.drawio](diagrams/northwood-architecture.drawio)
 
 ### Identity Flow
 
-![Northwood identity flow](diagrams/northwood-identity-flow.png)
+![Northwood identity flow](diagrams/northwood-identity-flow.gif)
 
 The left lane shows how Conditional Access evaluates a sign-in. Legacy authentication stops at the first check. Sign-ins from untrusted countries need a compliant device. Every user then completes MFA before Entra issues a token.
 
@@ -93,7 +93,7 @@ Source: [northwood-identity-flow.drawio](diagrams/northwood-identity-flow.drawio
 | 4 | The shared channel works in both directions | Pending | [screenshot](screenshots/05-validation/) |
 | 5 | SPF, DKIM and DMARC pass on mail-tester.com | Pending | [screenshot](screenshots/05-validation/) |
 | 6 | PIM activation for Global Admin requires MFA and justification | Pending | [screenshot](screenshots/05-validation/) |
-| 7 | Diagrams render in both .drawio and .png | Pending | [/diagrams](diagrams/) |
+| 7 | Diagrams render as .drawio and animated .gif | Pending | [/diagrams](diagrams/) |
 
 Full test steps: [docs/06-validation.md](docs/06-validation.md)
 
@@ -123,8 +123,8 @@ northwood-m365-governed-tenant/
 │   ├── reflection.md
 │   └── sample-invoice.md
 ├── diagrams/
-│   ├── northwood-architecture.drawio / .png
-│   └── northwood-identity-flow.drawio / .png
+│   ├── northwood-architecture.drawio / .gif
+│   └── northwood-identity-flow.drawio / .gif
 ├── screenshots/
 │   ├── 01-entra/
 │   ├── 02-exchange/

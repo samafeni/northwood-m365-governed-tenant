@@ -8,7 +8,7 @@ This document explains how the Northwood tenant fits together: which workloads e
 
 ## Tenant Architecture
 
-![Northwood tenant architecture](../diagrams/northwood-architecture.png)
+![Northwood tenant architecture](../diagrams/northwood-architecture.gif)
 
 ## Components
 
@@ -34,7 +34,7 @@ This document explains how the Northwood tenant fits together: which workloads e
 
 ## Identity Flow
 
-![Northwood identity flow](../diagrams/northwood-identity-flow.png)
+![Northwood identity flow](../diagrams/northwood-identity-flow.gif)
 
 ## Key Design Decisions
 
