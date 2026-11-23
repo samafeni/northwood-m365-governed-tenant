@@ -2,7 +2,6 @@
 
 [Back to README](../README.md)
 
-Target length: 500 words. Write this after validation, in first person, with specific examples from the build.
 
 ## Questions to answer
 
